@@ -1,4 +1,4 @@
-//
+//  Cody Malnor
 //  LLN.h
 //  proj1
 //
@@ -16,11 +16,20 @@
     LLN * next;
 }
 
--(id) init:(NSString *)s next:(LLN*)n;
+@property LLN* next;
 
--(void) print; //print values of list in order
+- (id) init:(NSString *)s next:(LLN*)n;
 
--(LLN *) reverse; //return head of the reversed list
+- (void) print; //print values of list in order
+
+- (LLN *) reverse; //return head of the reversed list
 #endif /* LLN_h */
 
+- (void) remove:(NSString *)sub; //removes all books with string->sub in title
+
+- (void) add:(NSString *)t; //adds t into the list in alphabetical order
+
+- (NSString *) getT;
+
+- (LLN *) getNext;
 @end

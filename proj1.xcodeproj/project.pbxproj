@@ -251,6 +251,7 @@
 				A4D90BEB1D79F97B00431FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
